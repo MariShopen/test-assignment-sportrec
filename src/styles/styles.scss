@@ -3,6 +3,7 @@
 .body {
     background-color: var(--bg-color-gray);
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
     font-family: Inter;
@@ -28,15 +29,14 @@
     }
 
     &__banner{
-        margin-top: 16px;
-        margin-bottom: 36px;
+        margin-bottom: 24px;
     }
 }
 .posts{
-    flex-grow: 3;
+    width:66%
 }
 .sidebar{
-    flex-grow: 1;
+    width:33%
 }
 .content{
     display: flex;
@@ -45,8 +45,12 @@
     gap: 24px;
 }
 .content__post{
+    display: flex;
+    flex-direction: column;
     background: white;
     width: 100%;
     display:flex;
     align-items: center;
+    border-radius: 20px;
+    padding: 16px;
 }

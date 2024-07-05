@@ -1,3 +1,4 @@
+@import '../../styles/colors.scss';
 .header {
     position:sticky;
     height: 64px;
@@ -40,13 +41,15 @@
 
     }
 }
-
-.menu__button{
+.button{
     display: flex;
     flex-direction: row;
     background: white;
     color: var(--text-color-gray);
     border: none;
+
+}
+.menu__button{
     justify-content: space-around;
     align-items: center;
     gap:8px;
@@ -54,9 +57,4 @@
     &-active{
         color: black;
     }
-}
-.button__text{
-    display: flex;
-    align-items: center;
-    padding-top: 4px;
 }
