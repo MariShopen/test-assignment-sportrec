@@ -1,0 +1,62 @@
+.header {
+    position:sticky;
+    height: 64px;
+    width:100%;
+    
+    background: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+
+    &__content{
+    max-width: 1160px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    }
+
+    &__logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu{
+        display: flex;
+        flex-direction: row;
+        margin-left: 24px;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+
+        &-left{
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+        }
+
+        &-right{
+            display: flex;
+            flex-direction: row;
+        }
+
+    }
+}
+
+.menu__button{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    color: var(--text-color-gray);
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    gap:8px;
+
+    &-active{
+        color: black;
+    }
+}
+.button__text{
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+}
