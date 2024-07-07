@@ -1,0 +1,27 @@
+.post__info{
+    color: var(--text-color-gray);
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.description__text{
+    color: var(--text-color-gray);
+
+}
+.post__icons{
+    color: var(--text-color-gray);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    &-views{
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+    &-com{
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+}

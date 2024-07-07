@@ -4,7 +4,7 @@ import award from "../../img/award-05.svg";
 import cert from "../../img/certificate-01.svg";
 import video from "../../img/video-recorder.svg";
 
-export default function Filters() {
+export const Filters = () => {
   return (
     <div className="content__post filters">
       <h3 className="filter_title">Фильтр ленты</h3>
@@ -28,4 +28,4 @@ export default function Filters() {
       </div>
     </div>
   );
-}
+};

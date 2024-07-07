@@ -10,7 +10,7 @@ import user from "../../img/user.svg";
 import buttonDown from "../../img/chevron-down.svg";
 import "./header.scss";
 
-export default function Header() {
+export const Header = () => {
   return (
     <header className="header">
       <div className="header__content">
@@ -58,4 +58,4 @@ export default function Header() {
       </div>
     </header>
   );
-}
+};
