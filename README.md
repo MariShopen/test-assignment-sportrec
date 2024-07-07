@@ -1,5 +1,8 @@
 # Sportrec
 
+## Деплой здесь
+https://main--sunny-entremet-f0d66d.netlify.app/
+
 ## Разработка
 
 1. Установить зависимости `yarn`
