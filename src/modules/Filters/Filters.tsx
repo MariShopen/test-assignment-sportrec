@@ -7,7 +7,7 @@ import video from "../../img/video-recorder.svg";
 export const Filters = () => {
   return (
     <div className="content__post filters">
-      <h3 className="filter_title">Фильтр ленты</h3>
+      <div className="filter_title">Фильтр ленты</div>
       <div className="button-group">
         <button className="filter__button-active filter__button button">
           <img src={grid} alt="" />

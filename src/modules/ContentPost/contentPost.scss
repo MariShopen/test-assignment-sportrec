@@ -1,9 +1,16 @@
-.post__info{
-    color: var(--text-color-gray);
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
+.post{
+    &__info{
+        color: var(--text-color-gray);
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
+    }
+    &__header{
+        margin-top: 16px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
 }
 .description__text{
     color: var(--text-color-gray);

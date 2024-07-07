@@ -29,7 +29,7 @@ export const ContentPost = ({
           <div>{info_date}</div>
         </div>
         <div className="post__header">
-          <h3> {title}</h3>
+          <div>{title}</div>
         </div>
         <div className="description__container">
           <div className="description__text">{description}</div>
